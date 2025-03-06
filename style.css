@@ -169,7 +169,7 @@ footer a {
     }
     
     header div {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
     }
     
