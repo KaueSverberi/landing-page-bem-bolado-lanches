@@ -76,6 +76,18 @@ header a {
     color: #FFFFFF;
 }
 
+.select-cardapio {
+    font-size: 65px;
+    background-color: #890807;
+    color: #FFFFFF;
+    padding-top: 30px;
+    border: none;
+}
+
+.select-cardapio option {
+    padding-right: 10px;
+}
+
 #cardapio {
     background-color: #890807;
     display: grid;
@@ -105,6 +117,12 @@ header a {
 
 #cardapio p {
     font-size: 14px;
+    padding-top: 20px;
+}
+
+#cardapio strong {
+    color: #FF0000;
+    font-size: 18px;
 }
 
 /* Botão WhatsApp */
