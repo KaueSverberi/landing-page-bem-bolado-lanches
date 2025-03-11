@@ -36,16 +36,15 @@
 
         <div id="titulo-card">
             <h2>Cardápio</h2>
-            <select class="select-cardapio">
+            <select id="select-cardapio" class="select-cardapio">
                 <option value="lanches">Lanches</option>
                 <option value="porcao">Porção</option>
                 <option value="acai">Açaí</option>
-                <option value="bebidas">Bebidas</option>
             </select>
         </div>
 
         <div class="cardapio">
-            <ul id="lanches">
+            <ul id="lanches" class="cardapio-item">
 
                 <li>
                     <img src="img/logo.jpg" alt="">
@@ -166,7 +165,7 @@
                 </div>
             </ul>
 
-            <ul id="porçao">
+            <ul id="porcao" class="cardapio-item">
                 <li>
                     <img src="img/logo.jpg" alt="">
                     <h4>Batata Frita 200g</h4>
@@ -225,7 +224,7 @@
                 </div>
             </ul>
 
-            <ul id="açai">
+            <ul id="acai" class="cardapio-item">
                 <li>
                     <img src="img/logo.jpg" alt="">
                     <h4>300 ml</h4>
@@ -251,7 +250,7 @@
                 </li>
 
                 <div class="adicionais">
-                    <h4>Adicionais R$2,00</h4>
+                    <h4>Adicionais</h4>
                     <div>
                         <p>Banana <strong>R$2,00</strong></p>
                         <p>Bis Branco <strong>R$2,00</strong></p>
@@ -264,22 +263,10 @@
                         <p>Leite em Pó <strong>R$2,00</strong></p>
                         <p>Ovomaltine <strong>R$2,00</strong></p>
                         <p>Paçoca  <strong>R$2,00</strong></p>
-                    </div>
-                </div>
-
-                <div class="adicionais">
-                    <h4>Adicionais R$3,00/R$4,00</h4>
-                    <div>
                         <p>Leite Ninho <strong>R$3,00</strong></p>
                         <p>Morango <strong>R$3,00</strong></p>
                         <p>Raspas de Chocolate <strong>R$3,00</strong></p>
                         <p>Kit Kat  <strong>R$4,00</strong></p>
-                    </div>
-                </div>
-
-                <div class="adicionais">
-                    <h4>Adicionais R$5,00/R$9,00</h4>
-                    <div>
                         <p>Creme de Avelã <strong>R$5,00</strong></p>
                         <p>Doce de Leite  <strong>R$5,00</strong></p>         
                         <p>Nutella <strong>R$9,00</strong></p>
@@ -314,6 +301,8 @@
         <p>© 2025 Bem bolado |</p>
         <a href="https://wa.me/+5512991401455/?text=Quero fazer um pedido!">Fale Conosco</a>
     </footer>
+    
+    
 </body>
-
+<script src="scripts.js"></script>
 </html>

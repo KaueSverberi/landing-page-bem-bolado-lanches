@@ -128,21 +128,64 @@ header {
     .adicionais {
         background-color: #FFFFFF;
         border-radius: 10px;
-        width: 400px;
-        padding: 10px 40px 10px 30px;
-
-        h4 {
-            padding-left: 115px;
+        width: 100%;
+        max-width: 400px;  /* Limita o tamanho máximo da div */
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Adiciona sombra suave para destaque */
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .adicionais h4 {
+        font-size: 18px;
+        color: #333;  /* Deixa o título um pouco mais suave */
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .adicionais div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));  /* Grid responsivo */
+        gap: 10px;
+        width: 100%;
+        text-align: center;  /* Centraliza o conteúdo das células */
+    }
+    
+    .adicionais div > div {
+        background-color: #f0f0f0;  /* Fundo suave para as opções */
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 14px;
+        color: #333;
+    }
+    
+    /* Responsividade */
+    @media (max-width: 1024px) {
+        .adicionais {
+            max-width: 350px; /* Ajusta o tamanho para telas médias */
+            padding: 15px;  /* Diminui o padding */
         }
-
-        div {
-            display: grid;
-            grid-template-columns: 200px 200px;
+    }
+    
+    @media (max-width: 768px) {
+        .adicionais {
+            max-width: 280px;  /* Ajusta ainda mais o tamanho para telas pequenas */
+        }
+    
+        .adicionais div {
+            grid-template-columns: 1fr;  /* Coloca em uma coluna única */
+        }
+    
+        .adicionais div > div {
+            font-size: 13px;  /* Ajusta o tamanho da fonte para telas menores */
         }
     }
 }
 
-#porçao {
+#porcao {
     background-color: #890807;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -186,7 +229,7 @@ header {
     }
 }
 
-#açai {
+#acai {
     background-color: #890807;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -225,18 +268,62 @@ header {
     .adicionais {
         background-color: #FFFFFF;
         border-radius: 10px;
-        width: 400px;
-        padding: 10px 40px 10px 30px;
-
-        h4 {
-            padding-left: 75px;
-        }
-
-        div {
-            display: grid;
-            grid-template-columns: 190px 180px;
+        width: 100%;
+        max-width: 400px;  /* Limita o tamanho máximo da div */
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Adiciona sombra suave para destaque */
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .adicionais h4 {
+        font-size: 18px;
+        color: #333;  /* Deixa o título um pouco mais suave */
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .adicionais div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));  /* Grid responsivo */
+        gap: 10px;
+        width: 100%;
+        text-align: center;  /* Centraliza o conteúdo das células */
+    }
+    
+    .adicionais div > div {
+        background-color: #f0f0f0;  /* Fundo suave para as opções */
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 14px;
+        color: #333;
+    }
+    
+    /* Responsividade */
+    @media (max-width: 1024px) {
+        .adicionais {
+            max-width: 350px; /* Ajusta o tamanho para telas médias */
+            padding: 15px;  /* Diminui o padding */
         }
     }
+    
+    @media (max-width: 768px) {
+        .adicionais {
+            max-width: 280px;  /* Ajusta ainda mais o tamanho para telas pequenas */
+        }
+    
+        .adicionais div {
+            grid-template-columns: 1fr;  /* Coloca em uma coluna única */
+        }
+    
+        .adicionais div > div {
+            font-size: 13px;  /* Ajusta o tamanho da fonte para telas menores */
+        }
+    }
+      
 }
 
 /* Botão WhatsApp */
