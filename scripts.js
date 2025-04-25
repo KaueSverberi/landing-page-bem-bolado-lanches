@@ -4,8 +4,6 @@ document.getElementById('select-cardapio').addEventListener('change', function()
     // Esconde todas as listas
     document.getElementById('lanches').style.display = 'none';
     document.getElementById('porcao').style.display = 'none';
-    document.getElementById('acai').style.display = 'none';
-    document.getElementById('bebidas').style.display = 'none';
     
     // Exibe a lista correspondente à opção selecionada
     document.getElementById(selectedValue).style.display = 'grid';
