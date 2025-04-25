@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: #000000;
+    background-color: #F6F1EB;
     position: sticky;
     top: 0;
 
@@ -33,18 +33,18 @@ header {
         font-size: 16px;
         font-weight: bold;
         text-decoration: none;
-        color: #FFFFFF;
+        color: #000000;
     }
 }
 
 /* Seção Nos Conheça */
 #nos-conheça {
-    background-color: #000000;
+    background-color: #F6F1EB;
     text-align: center;
     padding: 20px;
 
     h1 {
-        color: #FFFFFF;
+        color: #000000;
         font-size: 28px;
     }
 }
@@ -53,7 +53,7 @@ header {
     margin-top: 20px;
 
     p {
-        color: #FFFFFF;
+        color: #000000;
         font-size: 16px;
     }
 
@@ -66,20 +66,20 @@ header {
 
 /* Cardápio */
 #titulo-card {
-    background-color: #e2d736;
+    background-color: #FEBD59;
     text-align: center;
     padding: 10px;
 
     h2 {
         font-size: 40px;
-        color: #ffffff;
+        color: #000000;
     }
 }
 
 .select-cardapio {
     font-size: 65px;
-    background-color: #e2d736;
-    color: #FFFFFF;
+    background-color: #FEBD59;
+    color: #000000;
     padding-top: 30px;
     border: none;
     
@@ -90,7 +90,7 @@ header {
 
 
 #lanches{
-    background-color: #e2d736;
+    background-color: #FEBD59;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
@@ -102,7 +102,7 @@ header {
     li {
         background-color: #000000;
         text-align: center;
-        color: #FFFFFF;
+        color: #F6F1EB;
         border-radius: 8px;
         padding: 10px;
     }
@@ -127,7 +127,7 @@ header {
     }
 
     .adicionais {
-        background-color: #FFFFFF;
+        background-color: #F6F1EB;
         border-radius: 10px;
         width: 100%;
         max-width: 400px;  /* Limita o tamanho máximo da div */
@@ -187,7 +187,7 @@ header {
 }
 
 #porcao {
-    background-color: #e2d736;
+    background-color: #FEBD59;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
@@ -199,7 +199,7 @@ header {
     li {
         background-color: #000000;
         text-align: center;
-        color: #FFFFFF;
+        color: #F6F1EB;
         border-radius: 8px;
         padding: 10px;
     }
@@ -238,7 +238,7 @@ header {
     gap: 20px;
     align-items: center;
     justify-content: center;
-    background-color: #e2d736;
+    background-color: #FEBD59;
     padding: 20px;
 
     button {
@@ -246,8 +246,8 @@ header {
         gap: 10px;
         width: 250px;
         height: 60px;
-        background-color: #000000;
-        color: #FFFFFF;
+        background-color: #F6F1EB;
+        color: #000000;
         font-size: 16px;
         font-weight: bold;
         border: none;
@@ -266,19 +266,19 @@ header {
 
 /* Depoimentos */
 #depoimentos {
-    background-color: #000000;
+    background-color: #F6F1EB;
     text-align: center;
     padding: 20px;
 
     h2 {
         font-size: 40px;
-        color: #FFFFFF;
+        color: #000000;
     }
 
     p {
         padding-top: 30px;
         font-size: 16px;
-        color: #FFFFFF;
+        color: #000000;
     }
 }
 
@@ -287,8 +287,8 @@ footer {
     display: flex;
     gap: 5px;
     justify-content: center;
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #F6F1EB;
+    color: #000000;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 10px;
