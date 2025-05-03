@@ -3,7 +3,7 @@ document.getElementById('select-cardapio').addEventListener('change', function()
     
     // Esconde todas as listas
     document.getElementById('lanches').style.display = 'none';
-    document.getElementById('porcao').style.display = 'none';
+    document.getElementById('marmitex').style.display = 'none';
     
     // Exibe a lista correspondente à opção selecionada
     document.getElementById(selectedValue).style.display = 'grid';
